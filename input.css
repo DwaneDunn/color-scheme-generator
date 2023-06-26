@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+
+@import '/src/base/base.css'; /* Root Styles */
+@import '/src/base/reset.css'; /* Base Reset Styles */
+
+@import '/src/components/menu-bar.css';
+@import '/src/components/color-picker.css';
+@import '/src/components/color-select.css';
+
+@import '/src/components/buttons.css';
+
+@import 'src/components/main.css';

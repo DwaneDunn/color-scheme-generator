@@ -1,0 +1,17 @@
+/* Get Color Scheme */
+button {
+  width: 123px;
+  height: 42px;
+  background: inherit;
+  color: var(--txt-clr-blk, black);
+  font-size: 12px;
+  font-weight: 500; /* Medium  */
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  filter: drop-shadow(var(--shadow-button));
+}
+
+button:hover,
+button:focus {
+  cursor: pointer;
+}

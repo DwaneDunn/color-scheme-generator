@@ -1,0 +1,18 @@
+.menu {
+  height: 90px;
+  width: 100lvw;
+  background: var(--clr-white, white);
+}
+
+.menu .container {
+  height: 100%;
+  width: 90lvw;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}

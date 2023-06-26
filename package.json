@@ -1,0 +1,21 @@
+{
+  "name": "starter-vite-prettier-eslint",
+  "private": true,
+  "version": "0.0.8",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "eslint": "^8.42.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "postcss": "^8.4.24",
+    "postcss-preset-env": "^8.4.2",
+    "prettier": "^2.8.8",
+    "vite": "^4.3.9"
+  }
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Scheme Generator</title>
+  </head>
+  <body>
+    <!-- Main Nav -->
+    <nav id="menu" class="menu">
+      <div class="container">
+        <!-- Color Input -->
+        <input
+          type="color"
+          name="color"
+          value="#f55a5a"
+          id="color-input"
+          class="input-color"
+        />
+        <!-- Color Select Type -->
+        <select name="select" id="color-select" class="color-select">
+          <option value="monochrome">Monochrome</option>
+          <option value="monochrome-dark">Monochrome-dark</option>
+          <option value="monochrome-light">Monochrome-light</option>
+          <option value="analogic">Analogic</option>
+          <option value="complement">Complement</option>
+          <option value="analogic-complement">Analogic-complement</option>
+          <option value="triad">Triad</option>
+        </select>
+        <!-- Get Scheme -->
+        <button id="btn-color-scheme">Get color scheme</button>
+      </div>
+    </nav>
+    <main>
+      <!-- Color 1 -->
+      <div id="color-1" class="color-choice color-1">
+        <div id="hex-1" class="color-hex">#F55A5A</div>
+      </div>
+
+      <!-- Color 2-->
+      <div id="color-2" class="color-choice color-2">
+        <div id="hex-2" class="color-hex">#2B283A</div>
+      </div>
+
+      <!-- Color 3 -->
+      <div id="color-3" class="color-choice color-3">
+        <div id="hex-3" class="color-hex">#FBF3AB</div>
+      </div>
+
+      <!-- Color 4 -->
+      <div id="color-4" class="color-choice color-4">
+        <div id="hex-4" class="color-hex">#AAD1B6</div>
+      </div>
+
+      <!-- Color 5 -->
+      <div id="color-5" class="color-choice color-5">
+        <div id="hex-5" class="color-hex">#A626D3</div>
+      </div>
+    </main>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,25 @@
+:root {
+  line-height: 1.5;
+
+  font-family: 'Inter', sans-serif;
+
+  --clr-white: #ffffff;
+
+  --txt-clr-blk: #2b283a; /* Hex Footer */
+
+  --color-picked: #f55a5a; /* Color Input */
+
+  --color-1: #f55a5a;
+  --color-2: #2b283a;
+  --color-3: #fbf3ab;
+  --color-4: #aad1b6;
+  --color-5: #a626d3;
+
+  /* Drop Shadows */
+  --shadow-button: 0 1 2 5% #000000;
+  --hex-drop-shadow: 0 4 11 15% #000000;
+}
+
+/*
+  drop-shadow(offset-x offset-y blur-radius color)
+ */
